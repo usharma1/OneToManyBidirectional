@@ -1,0 +1,38 @@
+ONETOMANY BIDIRECTIONAL
+
+#LIBRARY
+
+1. localhost:1234/lib/add ---From LibrarySide
+	{
+    "name": "DDLJ",
+    "books": [
+        {
+            "name": "US1"
+        },
+        {
+            "name": "Us2"
+        }
+    ]
+	}
+
+
+2.	localhost:1234/lib/update/2 --Update LibrarySide
+
+	{
+	    "name":"Update"
+	}
+	
+*****************************************************************************************
+
+#BOOOK
+	
+1. localhost:1234/book/add/1 --from BookSide
+	{
+   "name":"US3"
+	}
+	
+2. localhost:1234/book/update/2--Update from Book
+
+	{
+	    "name":"USHA"
+	}
